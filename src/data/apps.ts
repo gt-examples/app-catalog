@@ -51,6 +51,7 @@ export const apps: AppEntry[] = [
   { slug: "book-library", name: "book-library", description: "Book catalog", demoUrl: "https://book-library.generaltranslation.dev", repo: "gt-examples/book-library", tags: ["T", "Num", "DateTime", "getGT"], category: "realworld" },
   { slug: "photo-gallery", name: "photo-gallery", description: "Photography gallery", demoUrl: "https://photo-gallery.generaltranslation.dev", repo: "gt-examples/photo-gallery", tags: ["T", "DateTime", "getGT"], category: "realworld" },
   { slug: "podcast-app", name: "podcast-app", description: "Podcast directory", demoUrl: "https://podcast-app.generaltranslation.dev", repo: "gt-examples/podcast-app", tags: ["T", "DateTime", "Num", "getGT"], category: "realworld" },
+  { slug: "flight-status", name: "flight-status", description: "Flight tracker with Solari flip-boards and route visualization", demoUrl: "https://flight-status.generaltranslation.dev", repo: "gt-examples/flight-status", tags: ["T", "DateTime", "Num", "Plural", "Branch", "getGT"], category: "realworld" },
 ];
 
 export function getAllTags(): string[] {
