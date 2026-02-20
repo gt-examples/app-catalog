@@ -1,0 +1,60 @@
+export type AppEntry = {
+  slug: string;
+  name: string;
+  description: string;
+  demoUrl: string;
+  repo: string;
+  tags: string[];
+  category: "technical" | "realworld";
+};
+
+export const apps: AppEntry[] = [
+  { slug: "next-app", name: "next-app", description: "Next.js starter app with gt-next basics", demoUrl: "https://next-app.generaltranslation.dev", repo: "gt-examples/next-app", tags: ["T", "getGT", "LocaleSelector"], category: "technical" },
+  { slug: "vite-app", name: "vite-app", description: "Vite + gt-react starter", demoUrl: "https://vite-app.generaltranslation.dev", repo: "gt-examples/vite-app", tags: ["T", "useGT"], category: "technical" },
+  { slug: "static-demo", name: "static-demo", description: "Static translation with declareStatic()", demoUrl: "https://static-demo.generaltranslation.dev", repo: "gt-examples/static-demo", tags: ["declareStatic"], category: "technical" },
+  { slug: "t-component-basics", name: "t-component-basics", description: "Basic T component usage", demoUrl: "https://t-component-basics.generaltranslation.dev", repo: "gt-examples/t-component-basics", tags: ["T"], category: "technical" },
+  { slug: "string-translation", name: "string-translation", description: "Server and client string translation with getGT/useGT", demoUrl: "https://string-translation.generaltranslation.dev", repo: "gt-examples/string-translation", tags: ["getGT", "useGT"], category: "technical" },
+  { slug: "variable-components", name: "variable-components", description: "Var, Num, Currency, DateTime components", demoUrl: "https://variable-components.generaltranslation.dev", repo: "gt-examples/variable-components", tags: ["Var", "Num", "Currency", "DateTime"], category: "technical" },
+  { slug: "plural-and-branch", name: "plural-and-branch", description: "Plural rules and conditional branching", demoUrl: "https://plural-and-branch.generaltranslation.dev", repo: "gt-examples/plural-and-branch", tags: ["Plural", "Branch"], category: "technical" },
+  { slug: "shared-strings-msg", name: "shared-strings-msg", description: "Shared string constants with msg()", demoUrl: "https://shared-strings-msg.generaltranslation.dev", repo: "gt-examples/shared-strings-msg", tags: ["msg"], category: "technical" },
+  { slug: "dynamic-content-tx", name: "dynamic-content-tx", description: "Runtime translation with Tx and tx()", demoUrl: "https://dynamic-content-tx.generaltranslation.dev", repo: "gt-examples/dynamic-content-tx", tags: ["Tx", "tx"], category: "technical" },
+  { slug: "locale-routing-middleware", name: "locale-routing-middleware", description: "Middleware-based locale routing", demoUrl: "https://locale-routing-middleware.generaltranslation.dev", repo: "gt-examples/locale-routing-middleware", tags: ["Middleware"], category: "technical" },
+  { slug: "rtl-support", name: "rtl-support", description: "Right-to-left language support", demoUrl: "https://rtl-support.generaltranslation.dev", repo: "gt-examples/rtl-support", tags: ["RTL"], category: "technical" },
+  { slug: "dictionary-pattern", name: "dictionary-pattern", description: "Key-based translation with loadDictionary", demoUrl: "https://dictionary-pattern.generaltranslation.dev", repo: "gt-examples/dictionary-pattern", tags: ["loadDictionary"], category: "technical" },
+  { slug: "static-site-generation", name: "static-site-generation", description: "SSG with generateStaticParams per locale", demoUrl: "https://static-site-generation.generaltranslation.dev", repo: "gt-examples/static-site-generation", tags: ["SSG", "generateStaticParams"], category: "technical" },
+  { slug: "local-translation-storage", name: "local-translation-storage", description: "Bundled translations instead of CDN", demoUrl: "https://local-translation-storage.generaltranslation.dev", repo: "gt-examples/local-translation-storage", tags: ["LocalStorage"], category: "technical" },
+  { slug: "server-metadata-seo", name: "server-metadata-seo", description: "Translated metadata and OG tags for SEO", demoUrl: "https://server-metadata-seo.generaltranslation.dev", repo: "gt-examples/server-metadata-seo", tags: ["getGT", "SEO", "Metadata"], category: "technical" },
+  { slug: "language-length-analysis", name: "language-length-analysis", description: "Text expansion analysis across languages", demoUrl: "https://language-length-analysis.generaltranslation.dev", repo: "gt-examples/language-length-analysis", tags: ["Num", "getGT"], category: "technical" },
+  { slug: "restaurant-menu", name: "restaurant-menu", description: "Multilingual restaurant menu", demoUrl: "https://restaurant-menu.generaltranslation.dev", repo: "gt-examples/restaurant-menu", tags: ["T", "Currency", "LocaleSelector"], category: "realworld" },
+  { slug: "ecommerce-storefront", name: "ecommerce-storefront", description: "E-commerce with translated products and prices", demoUrl: "https://ecommerce-storefront.generaltranslation.dev", repo: "gt-examples/ecommerce-storefront", tags: ["T", "Currency", "Num", "getGT"], category: "realworld" },
+  { slug: "blog-platform", name: "blog-platform", description: "MDX blog with multilingual content", demoUrl: "https://blog-platform.generaltranslation.dev", repo: "gt-examples/blog-platform", tags: ["T", "getGT", "DateTime"], category: "realworld" },
+  { slug: "weather-dashboard", name: "weather-dashboard", description: "Weather with locale-aware units", demoUrl: "https://weather-dashboard.generaltranslation.dev", repo: "gt-examples/weather-dashboard", tags: ["Num", "Var", "DateTime"], category: "realworld" },
+  { slug: "developer-portfolio", name: "developer-portfolio", description: "Multilingual portfolio site", demoUrl: "https://developer-portfolio.generaltranslation.dev", repo: "gt-examples/developer-portfolio", tags: ["T", "getGT", "LocaleSelector"], category: "realworld" },
+  { slug: "saas-dashboard", name: "saas-dashboard", description: "Multi-page SaaS dashboard", demoUrl: "https://saas-dashboard.generaltranslation.dev", repo: "gt-examples/saas-dashboard", tags: ["T", "Num", "Currency", "DateTime", "Plural"], category: "realworld" },
+  { slug: "event-landing-page", name: "event-landing-page", description: "Conference landing page", demoUrl: "https://event-landing-page.generaltranslation.dev", repo: "gt-examples/event-landing-page", tags: ["T", "DateTime", "getGT"], category: "realworld" },
+  { slug: "recipe-app", name: "recipe-app", description: "Recipe browser with locale-aware units", demoUrl: "https://recipe-app.generaltranslation.dev", repo: "gt-examples/recipe-app", tags: ["Num", "Var", "T"], category: "realworld" },
+  { slug: "job-board", name: "job-board", description: "Multilingual job listings", demoUrl: "https://job-board.generaltranslation.dev", repo: "gt-examples/job-board", tags: ["T", "getGT", "DateTime"], category: "realworld" },
+  { slug: "travel-booking", name: "travel-booking", description: "Hotel and flight booking page", demoUrl: "https://travel-booking.generaltranslation.dev", repo: "gt-examples/travel-booking", tags: ["Currency", "DateTime", "T", "Num"], category: "realworld" },
+  { slug: "fitness-tracker", name: "fitness-tracker", description: "Workout tracker with locale-aware units", demoUrl: "https://fitness-tracker.generaltranslation.dev", repo: "gt-examples/fitness-tracker", tags: ["Num", "Var", "DateTime"], category: "realworld" },
+  { slug: "music-player", name: "music-player", description: "Music library with playlists and albums", demoUrl: "https://music-player.generaltranslation.dev", repo: "gt-examples/music-player", tags: ["T", "Num", "DateTime"], category: "realworld" },
+  { slug: "task-manager", name: "task-manager", description: "Kanban task board", demoUrl: "https://task-manager.generaltranslation.dev", repo: "gt-examples/task-manager", tags: ["T", "DateTime", "Plural"], category: "realworld" },
+  { slug: "real-estate-listings", name: "real-estate-listings", description: "Property listings with locale-aware prices", demoUrl: "https://real-estate-listings.generaltranslation.dev", repo: "gt-examples/real-estate-listings", tags: ["Currency", "Num", "T"], category: "realworld" },
+  { slug: "news-aggregator", name: "news-aggregator", description: "News feed with translated categories", demoUrl: "https://news-aggregator.generaltranslation.dev", repo: "gt-examples/news-aggregator", tags: ["T", "getGT", "DateTime"], category: "realworld" },
+  { slug: "education-platform", name: "education-platform", description: "Course catalog", demoUrl: "https://education-platform.generaltranslation.dev", repo: "gt-examples/education-platform", tags: ["T", "Num", "getGT"], category: "realworld" },
+  { slug: "social-media-feed", name: "social-media-feed", description: "Social timeline with translated engagement stats", demoUrl: "https://social-media-feed.generaltranslation.dev", repo: "gt-examples/social-media-feed", tags: ["Num", "DateTime", "Plural", "T"], category: "realworld" },
+  { slug: "movie-database", name: "movie-database", description: "Film catalog with ratings and box office", demoUrl: "https://movie-database.generaltranslation.dev", repo: "gt-examples/movie-database", tags: ["Num", "Currency", "T", "DateTime"], category: "realworld" },
+  { slug: "crypto-dashboard", name: "crypto-dashboard", description: "Crypto price tracker", demoUrl: "https://crypto-dashboard.generaltranslation.dev", repo: "gt-examples/crypto-dashboard", tags: ["Currency", "Num", "DateTime"], category: "realworld" },
+  { slug: "airline-booking", name: "airline-booking", description: "Flight search results", demoUrl: "https://airline-booking.generaltranslation.dev", repo: "gt-examples/airline-booking", tags: ["Currency", "DateTime", "T"], category: "realworld" },
+  { slug: "customer-support", name: "customer-support", description: "Help desk with FAQ and tickets", demoUrl: "https://customer-support.generaltranslation.dev", repo: "gt-examples/customer-support", tags: ["T", "getGT", "DateTime"], category: "realworld" },
+  { slug: "sports-scores", name: "sports-scores", description: "Live sports scoreboard", demoUrl: "https://sports-scores.generaltranslation.dev", repo: "gt-examples/sports-scores", tags: ["Num", "DateTime", "T"], category: "realworld" },
+  { slug: "pricing-page", name: "pricing-page", description: "SaaS pricing tiers", demoUrl: "https://pricing-page.generaltranslation.dev", repo: "gt-examples/pricing-page", tags: ["Currency", "Num", "T", "Branch"], category: "realworld" },
+  { slug: "book-library", name: "book-library", description: "Book catalog", demoUrl: "https://book-library.generaltranslation.dev", repo: "gt-examples/book-library", tags: ["T", "Num", "DateTime", "getGT"], category: "realworld" },
+  { slug: "photo-gallery", name: "photo-gallery", description: "Photography gallery", demoUrl: "https://photo-gallery.generaltranslation.dev", repo: "gt-examples/photo-gallery", tags: ["T", "DateTime", "getGT"], category: "realworld" },
+  { slug: "podcast-app", name: "podcast-app", description: "Podcast directory", demoUrl: "https://podcast-app.generaltranslation.dev", repo: "gt-examples/podcast-app", tags: ["T", "DateTime", "Num", "getGT"], category: "realworld" },
+];
+
+export function getAllTags(): string[] {
+  const tagSet = new Set<string>();
+  apps.forEach((app) => app.tags.forEach((tag) => tagSet.add(tag)));
+  return Array.from(tagSet).sort();
+}
