@@ -55,6 +55,7 @@ export const apps: AppEntry[] = [
   { slug: "scholarship-finder", name: "scholarship-finder", description: "Scholarship browser with profile matching and comparison tool", demoUrl: "https://scholarship-finder.generaltranslation.dev", repo: "gt-examples/scholarship-finder", tags: ["T", "Currency", "DateTime", "Num", "Plural", "Branch", "getGT"], category: "realworld" },
   { slug: "camping-planner", name: "camping-planner", description: "Camping planner with gear checklists, trail guides, and trip planning", demoUrl: "https://camping-planner.generaltranslation.dev", repo: "gt-examples/camping-planner", tags: ["T", "Num", "Currency", "DateTime", "Plural", "Branch", "getGT"], category: "realworld" },
   { slug: "freight-tracker", name: "Freight Tracker", description: "Shipping logistics dashboard with package tracking, delivery schedules, and analytics", demoUrl: "https://freight-tracker.generaltranslation.dev", repo: "gt-examples/freight-tracker", tags: ["T", "Branch", "DateTime", "Num", "Currency", "Var", "LocaleSelector", "getGT"], category: "realworld" },
+  { slug: "ski-resort", name: "ski-resort", description: "Ski resort conditions dashboard", demoUrl: "https://ski-resort.generaltranslation.dev", repo: "gt-examples/ski-resort", tags: ["Num", "Branch", "Currency", "LocaleSelector", "getGT"], category: "realworld" },
 ];
 
 export function getAllTags(): string[] {
