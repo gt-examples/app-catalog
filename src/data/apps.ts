@@ -71,6 +71,7 @@ export const apps: AppEntry[] = [
   { slug: "museum-guide", name: "Museum Guide", description: "Museum visitor guide with exhibition timeline, searchable artwork catalog, and artist bios", demoUrl: "https://museum-guide.generaltranslation.dev", repo: "gt-examples/museum-guide", tags: ["T", "Num", "DateTime", "Plural", "Branch", "LocaleSelector", "getGT"], category: "realworld" },
   { slug: "coworking-space", name: "Coworking Space", description: "Coworking space booking platform with availability calendar, membership plans, and community events", demoUrl: "https://coworking-space.generaltranslation.dev", repo: "gt-examples/coworking-space", tags: ["T", "Currency", "Num", "DateTime", "Plural", "Branch", "LocaleSelector", "getGT"], category: "realworld" },
   { slug: "running-club", name: "Running Club", description: "Running club and race tracker with countdown timer, elevation profiles, training plans, and leaderboard", demoUrl: "https://running-club.generaltranslation.dev", repo: "gt-examples/running-club", tags: ["T", "Num", "DateTime", "Plural", "Branch", "getGT", "LocaleSelector"], category: "realworld" },
+  { slug: "craft-brewery", name: "Craft Brewery", description: "Craft brewery taproom with interactive beer menu, flavor radar charts, pour size pricing, and event calendar", demoUrl: "https://craft-brewery.generaltranslation.dev", repo: "gt-examples/craft-brewery", tags: ["T", "Currency", "Num", "DateTime", "Plural", "Branch", "LocaleSelector", "getGT"], category: "realworld" },
 ];
 
 export function getAllTags(): string[] {
