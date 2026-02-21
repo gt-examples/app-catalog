@@ -62,6 +62,7 @@ export const apps: AppEntry[] = [
   { slug: "garden-planner", name: "Garden Planner", description: "Garden planning tool with plant catalog, companion planting, grid layout builder, and seasonal calendar", demoUrl: "https://garden-planner.generaltranslation.dev", repo: "gt-examples/garden-planner", tags: ["T", "Num", "DateTime", "Plural", "Branch", "LocaleSelector", "getGT", "useGT"], category: "realworld" },
   { slug: "furniture-shop", name: "Furniture Shop", description: "Modern furniture e-commerce with catalog filters, product details, room planner, and cart", demoUrl: "https://furniture-shop.generaltranslation.dev", repo: "gt-examples/furniture-shop", tags: ["T", "Currency", "Num", "Plural", "Branch", "LocaleSelector", "getGT"], category: "realworld" },
   { slug: "bike-shop", name: "Bike Shop", description: "Bicycle shop with inventory, repair booking, trail guides, and interactive calculators", demoUrl: "https://bike-shop.generaltranslation.dev", repo: "gt-examples/bike-shop", tags: ["T", "Currency", "Num", "DateTime", "Plural", "Branch", "LocaleSelector", "getGT"], category: "realworld" },
+  { slug: "vet-clinic", name: "Vet Clinic", description: "A veterinary clinic management site with appointment booking and pet health records", demoUrl: "https://vet-clinic.generaltranslation.dev", repo: "gt-examples/vet-clinic", tags: ["T", "Currency", "DateTime", "Num", "Plural", "Branch", "getGT", "useGT"], category: "realworld" },
 ];
 
 export function getAllTags(): string[] {
