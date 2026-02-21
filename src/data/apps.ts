@@ -59,6 +59,7 @@ export const apps: AppEntry[] = [
   { slug: "food-truck-finder", name: "food-truck-finder", description: "Food truck directory with menus, schedules, and events", demoUrl: "https://food-truck-finder.generaltranslation.dev", repo: "gt-examples/food-truck-finder", tags: ["T", "Currency", "Num", "Plural", "Branch", "DateTime", "LocaleSelector", "getGT"], category: "realworld" },
   { slug: "hardware-store", name: "Hardware Store", description: "Hardware store with product catalog, project guides, paint calculator, and tool rental", demoUrl: "https://hardware-store.generaltranslation.dev", repo: "gt-examples/hardware-store", tags: ["T", "Currency", "Num", "Plural", "Branch", "LocaleSelector", "getGT"], category: "realworld" },
   { slug: "movie-streaming", name: "Movie Streaming", description: "Netflix-style streaming service UI with carousels, search, and watchlist", demoUrl: "https://movie-streaming.generaltranslation.dev", repo: "gt-examples/movie-streaming", tags: ["T", "Num", "DateTime", "Plural", "Branch", "LocaleSelector", "getGT"], category: "realworld" },
+  { slug: "garden-planner", name: "Garden Planner", description: "Garden planning tool with plant catalog, companion planting, grid layout builder, and seasonal calendar", demoUrl: "https://garden-planner.generaltranslation.dev", repo: "gt-examples/garden-planner", tags: ["T", "Num", "DateTime", "Plural", "Branch", "LocaleSelector", "getGT", "useGT"], category: "realworld" },
 ];
 
 export function getAllTags(): string[] {
