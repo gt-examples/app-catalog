@@ -67,6 +67,7 @@ export const apps: AppEntry[] = [
   { slug: "space-tourism", name: "Space Tourism", description: "Futuristic space travel booking site with countdown timers and multi-step booking wizard", demoUrl: "https://space-tourism.generaltranslation.dev", repo: "gt-examples/space-tourism", tags: ["T", "Currency", "DateTime", "Num", "Plural", "Branch", "getGT", "useGT", "LocaleSelector"], category: "realworld" },
   { slug: "bakery", name: "Bakery", description: "Artisan bakery shop with custom cake builder, menu filters, and order history", demoUrl: "https://bakery.generaltranslation.dev", repo: "gt-examples/bakery", tags: ["T", "Currency", "Num", "DateTime", "Plural", "Branch", "LocaleSelector", "getGT", "useGT"], category: "realworld" },
   { slug: "yoga-studio", name: "Yoga Studio", description: "Yoga studio with interactive weekly schedule, instructor profiles, and membership pricing", demoUrl: "https://yoga-studio.generaltranslation.dev", repo: "gt-examples/yoga-studio", tags: ["T", "Currency", "Num", "DateTime", "Plural", "Branch", "LocaleSelector", "getGT"], category: "realworld" },
+  { slug: "recipe-blog", name: "Recipe Blog", description: "Multilingual recipe blog with servings adjuster, meal planner, and cuisine filtering", demoUrl: "https://recipe-blog.generaltranslation.dev", repo: "gt-examples/recipe-blog", tags: ["T", "Num", "DateTime", "Plural", "Branch", "LocaleSelector", "getGT", "useGT"], category: "realworld" },
 ];
 
 export function getAllTags(): string[] {
