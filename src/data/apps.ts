@@ -70,6 +70,7 @@ export const apps: AppEntry[] = [
   { slug: "recipe-blog", name: "Recipe Blog", description: "Multilingual recipe blog with servings adjuster, meal planner, and cuisine filtering", demoUrl: "https://recipe-blog.generaltranslation.dev", repo: "gt-examples/recipe-blog", tags: ["T", "Num", "DateTime", "Plural", "Branch", "LocaleSelector", "getGT", "useGT"], category: "realworld" },
   { slug: "museum-guide", name: "Museum Guide", description: "Museum visitor guide with exhibition timeline, searchable artwork catalog, and artist bios", demoUrl: "https://museum-guide.generaltranslation.dev", repo: "gt-examples/museum-guide", tags: ["T", "Num", "DateTime", "Plural", "Branch", "LocaleSelector", "getGT"], category: "realworld" },
   { slug: "coworking-space", name: "Coworking Space", description: "Coworking space booking platform with availability calendar, membership plans, and community events", demoUrl: "https://coworking-space.generaltranslation.dev", repo: "gt-examples/coworking-space", tags: ["T", "Currency", "Num", "DateTime", "Plural", "Branch", "LocaleSelector", "getGT"], category: "realworld" },
+  { slug: "running-club", name: "Running Club", description: "Running club and race tracker with countdown timer, elevation profiles, training plans, and leaderboard", demoUrl: "https://running-club.generaltranslation.dev", repo: "gt-examples/running-club", tags: ["T", "Num", "DateTime", "Plural", "Branch", "getGT", "LocaleSelector"], category: "realworld" },
 ];
 
 export function getAllTags(): string[] {
